@@ -1,13 +1,16 @@
 @import url('./layout.css');
 
 /*Main navigation*/
-
 body > nav ul {
     display: flex;
     justify-content: space-around;
-    background: #596275
+    background-color:#596265;
   }
   
   body > nav li {
       padding: 2.3em;
+  }
+
+  body > nav li a {
+    color: #fff;
   }
