@@ -13,6 +13,7 @@ body > nav ul {
 
   body > nav li a {
     color: #fff;
+    text-decoration: none;
   }
 
   body > nav li a:hover {
