@@ -1,0 +1,13 @@
+@import url('./layout.css');
+
+/*Main navigation*/
+
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: #596275
+  }
+  
+  body > nav li {
+      padding: 2.3em;
+  }
