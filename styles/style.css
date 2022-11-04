@@ -24,7 +24,7 @@ body > nav ul {
 
 /*Main content*/
 
-main {
+#content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
