@@ -78,3 +78,8 @@
     display: flex;   
 }
 
+/*Footer*/
+
+#footer-option-3 {
+    justify-content: center;
+}
