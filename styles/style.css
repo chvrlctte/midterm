@@ -54,13 +54,16 @@
     justify-content: space-around;
 }
 
-#aside-option-3 h2 {
+#aside-option-3 > figure > h2 {
     display: flex;
     justify-content: space-around;
     color: #fff;
     background: #333;
-    height: 50px;
+    height: 100%;
     padding: 1em;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: auto;
 }
 
 #aside-option-3 > figure > p {
