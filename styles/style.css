@@ -22,6 +22,10 @@
 
 /*Main header*/
 
+#header-option-1 {
+    justify-content: center;
+}
+
 /*Main content*/
 
 #content {
