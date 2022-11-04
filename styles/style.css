@@ -19,3 +19,13 @@ body > nav ul {
   body > nav li a:hover {
     color: #333;
   }
+
+/*Main header*/
+
+/*Main content*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
