@@ -46,12 +46,26 @@ article img {
 
 /*Aside*/
 
+#aside-option-3 {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #aside-option-3 > h2 {
     display: flex;
     justify-content: space-around;
     color: #fff;
     background: #333;
     height: 50px;
+    padding: 1em;
+}
+
+#aside-option-3 > p {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 1em;
 }
 
