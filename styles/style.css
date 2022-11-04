@@ -35,6 +35,7 @@
     height: 300px;
     width: 200px;
     padding: 2em;
+    order: 1;
 }
 
 #main-option-1 > article img {
@@ -44,14 +45,12 @@
 /*Aside*/
 
 #aside-option-3 {
-    border: 1px solid #ccc;
-    padding: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
     margin-bottom: auto;
+    justify-content: space-around;
 }
 
-#aside-option-3 > figure > h2 {
+#aside-option-3 h2 {
     display: flex;
     justify-content: space-around;
     color: #fff;
