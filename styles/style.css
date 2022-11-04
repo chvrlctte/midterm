@@ -30,18 +30,15 @@ main {
     justify-content: center;
 }
 
-article {
-    width: 200px;
+#main-option-1 > article {
+    float: left;
     height: 300px;
+    width: 200px;
     padding: 2em;
 }
 
-article img {
+#main-option-1 > article img {
     width: 100%;
-}
-
-#main-option-1 > article {
-    float: left;
 }
 
 /*Aside*/
@@ -54,7 +51,7 @@ article img {
     margin-bottom: auto;
 }
 
-#aside-option-3 > section > h2 {
+#aside-option-3 > figure > h2 {
     display: flex;
     justify-content: space-around;
     color: #fff;
@@ -63,16 +60,18 @@ article img {
     padding: 1em;
 }
 
-#aside-option-3 > section > p {
+#aside-option-3 > figure > p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 1em;
 }
 
-#aside-option-3 > section > cite {
+#aside-option-3 > figure > cite {
     background: #333;
     color: #fff;
-    margin-bottom: 1em;    
+    padding: 1em;
+    margin-bottom: 1em; 
+    display: flex;   
 }
 
