@@ -29,3 +29,17 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+article {
+    width: 200px;
+    height: 300px;
+    padding: 2em;
+}
+
+article img {
+    width: 100%;
+}
+
+#main-option-1 > article {
+    float: left;
+}
