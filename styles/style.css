@@ -43,3 +43,15 @@ article img {
 #main-option-1 > article {
     float: left;
 }
+
+/*Aside*/
+
+#aside-option-3 > h2 {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #333;
+    height: 50px;
+    padding: 1em;
+}
+
