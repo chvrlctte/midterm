@@ -1,6 +1,7 @@
 @import url('./layout.css');
 
 /*Main navigation*/
+
 #main-navigation-option-2 ul {
     display: flex;
     justify-content: space-around;
@@ -38,9 +39,12 @@
     float: left;
     height: 300px;
     width: 200px;
-    padding: 2em;
-    order: 1;
+    padding: 1em;
+    border: 1px solid #333;
+    border-bottom: 2em;
+    margin-bottom:2em;
 }
+
 
 #main-option-1 > article img {
     width: 100%;
@@ -84,5 +88,6 @@
 /*Footer*/
 
 #footer-option-3 {
+    margin-top: auto;
     justify-content: center;
 }
